@@ -44,7 +44,7 @@ body {
   width: 930px;
   height: 455px;
   background-color: rgb(235, 240, 250);
-  border-radius: 10px;
+  border-radius: 10px 0px 0px 10px;
 }
 
 .content__text {
@@ -116,5 +116,5 @@ body {
 .content__image {
   width: 910px;
   height: 455px;
-  border-radius: 10px;
+  border-radius: 0px 10px 10px 0px;
 }
