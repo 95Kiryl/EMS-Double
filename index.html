@@ -32,15 +32,30 @@
     <div class="modal">
         <div class="modal__form">
             <form action="#" method="GET">
-                <button class="close"></button>
-                <p class="form__description">Войти в систему</p>
-                <input type="text" class="login" name="login">
-                <input type="password" name="password" class="password">
-                <input type="checkbox" name="checkbox" class="checkbox">
-                <p class="checkbox__description">Запомнить пароль</p>
-                <span>Восстановить</span>
-                <input type="submit" class="login" name="login">Войти</input>
-                <button class="join">Зарегестрироваться</button>
+                <div class="btn__close">
+                    <button class="close">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M18 6L6 18" stroke="black" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path d="M6 6L18 18" stroke="black" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </button>
+                </div>
+                <div class="form__content-wrapp">
+                    <p class="form__description">Войти в систему</p>
+                    <input type="text" class="login" name="login" placeholder="Email/Телефон">
+                    <input type="password" name="password" class="password" placeholder="Пароль">
+                    <div class="checkbox__wrapp">
+                        <input type="checkbox" name="checkbox" class="checkbox">
+                        <p class="checkbox__description">Запомнить пароль</p>
+                    </div>
+                    <div class="restore">
+                        <span>Восстановить</span>
+                    </div>
+                    <button type="submit" class="submit" name="submit">Войти</button>
+                    <button class="join">Зарегестрироваться</button>
+                </div>
             </form>
         </div>
     </div>
