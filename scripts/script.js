@@ -5,21 +5,18 @@ const btnOpenModal = document.querySelector('.content__btn'),
     parentModalForm = document.querySelector('.modal'),
     mainContent = document.querySelector('.content');
 
-
-const modalVisible = () => {
+const updateModal = () => {
     mainContent.classList.toggle('hidden');
     parentModalForm.classList.toggle('visible');
 }
 
+
 btnOpenModal.addEventListener('click', () => {
-    modalVisible();
+    updateModal();
 })
 
 btnCloseModal.addEventListener('click', () => {
-    modalVisible();
+    updateModal();
 })
 
-parentModalForm.addEventListener('click', () => {
-    modalVisible();
-})
 

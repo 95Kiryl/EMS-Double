@@ -139,17 +139,8 @@ form {
   position: relative;
 }
 
-.btn__close {
-  position: absolute;
-  width: 100%;
-  height: 52px;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  margin-bottom: 4px;
-}
-
 .close {
+  position: absolute;
   width: 52px;
   height: 52px;
   border-radius: 10px;
@@ -158,14 +149,8 @@ form {
   align-items: center;
   justify-content: center;
   cursor: pointer;
-}
-
-.form__content-wrapp {
-  position: absolute;
-  width: 100%;
-  height: 469px;
-  display: flex;
-  flex-direction: column;
+  margin-bottom: 4px;
+  right: 0;
 }
 
 .form__description {
